@@ -1,6 +1,6 @@
-#Temperature Converter
+# Temperature Converter
 
-## View app live: [Temperature Converter Live](js-temp-converter.netlify.com)
+## View app live: [Temperature Converter Live](https://js-temp-converter.netlify.com)
 
 - Purpose of this project was to utilize javascript to find conversion of Farenheit to Celsius and Celsius to Farenheit.
 
