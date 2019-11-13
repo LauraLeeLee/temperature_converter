@@ -60,29 +60,29 @@
   }
   
   .frozen {
-    background: lightblue url("https://pixabay.com/photos/ice-eiskristalle-snow-iced-1997289/") no-repeat fixed center;
+    background: lightblue url("../img/cold.jpg") no-repeat fixed center;
   }
   
   .cool {
-    background: blue url("https://pixabay.com/photos/dandelion-seeds-flower-nature-445228/") no-repeat fixed center;
+    background: blue url("../img/cool.jpg") no-repeat fixed center;
   }
   
   
   .hot {
-      background: orange url("https://pixabay.com/photos/desert-landscape-desert-landscape-1081829/") no-repeat fixed center;
+      background: orange url("../img/hot.jpg") no-repeat fixed center;
     
   }
   
   .warm {
-    background: yellow url("https://pixabay.com/illustrations/marguerite-leucanthemum-composites-1607181/") no-repeat fixed center;
+    background: yellow url("../img/warm.jpg") no-repeat fixed center;
   }
   
   .mild {
-    background: green url("https://pixabay.com/photos/agriculture-field-landscape-3363932/") no-repeat fixed center;
+    background: green url("../img/mild.jpg") no-repeat fixed center;
   }
   
   .very-hot {
-    background: red url("https://pixabay.com/photos/fire-wood-fire-flame-burn-brand-171229/") no-repeat fixed center;
+    background: red url("../img/very-hot.jpg") no-repeat fixed center;
   }
   
   
