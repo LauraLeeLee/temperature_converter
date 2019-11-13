@@ -1,88 +1,89 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #body {
-    text-align: center;
-  /*   background-color: grey; */
-    color: blue;
-  }
-  
-  h1 {
-    margin-top: 20px;
-  }
-  
-  #myForm {
-    display: inline-block;
-    /* text-align: center; */
-    margin: 30px auto 10px;
-    width: 600px;
-    
-  }
-  
-  .temp-box {
-   width: 120px;
-   display: inline-block;
-   margin-bottom: 20px;
-  }
-  
-  .temperature {
-    margin-top: 0;
-    border: 3px solid blue;
-    height: 80px;
-    width: 100px;
-    color: blue;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  h2 {
-    /* margin-left: 10px; */
-    width: 100px;
-    margin: 0 auto 0;
-  /*   text-align: center; */
-  }
-  
-  .reset-inputs {
-    width: 80px;
-    background-color: yellow;
-    font-size: 24px; 
-    display: block;
-    margin: 0 auto 0;
-    border: 3px solid #000;
-    border-radius: 20px;
-    padding: 5px;
-  }
-  .nothing {
-    background-color: black;
-  }
-  
-  .frozen {
-    background: lightblue url("../img/cold.jpg") no-repeat fixed center;
-  }
-  
-  .cool {
-    background: blue url("../img/cool.jpg") no-repeat fixed center;
-  }
-  
-  
-  .hot {
-      background: orange url("../img/hot.jpg") no-repeat fixed center;
-    
-  }
-  
-  .warm {
-    background: yellow url("../img/warm.jpg") no-repeat fixed center;
-  }
-  
-  .mild {
-    background: green url("../img/mild.jpg") no-repeat fixed center;
-  }
-  
-  .very-hot {
-    background: red url("../img/very-hot.jpg") no-repeat fixed center;
-  }
-  
-  
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#body {
+	text-align: center;
+	/*   background-color: grey; */
+	color: blue;
+}
+
+.container {
+	margin-top: 100px;
+	padding-top: 20px;
+	height: 600px;
+}
+
+h1 {
+	margin-top: 40px;
+}
+
+#myForm {
+	display: inline-block;
+	margin: 30px auto 10px;
+	width: 600px;
+}
+
+.temp-box {
+	width: 120px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.temperature {
+	margin-top: 0;
+	border: 3px solid blue;
+	height: 80px;
+	width: 100px;
+	color: blue;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	width: 100px;
+	margin: 0 auto 0;
+}
+
+.reset-inputs {
+	width: 80px;
+	background-color: yellow;
+	font-size: 24px; 
+	display: block;
+	margin: 0 auto 0;
+	border: 3px solid #000;
+	border-radius: 20px;
+	padding: 5px;
+}
+.nothing {
+	background-color: black;
+}
+
+.frozen {
+	background: lightblue url("../img/cold.jpg") no-repeat fixed center;
+}
+
+.cool {
+	background: blue url("../img/cool.jpg") no-repeat fixed center;
+}
+
+
+.hot {
+	background: orange url("../img/hot.jpg") no-repeat fixed center;
+
+}
+
+.warm {
+	background: yellow url("../img/warm.jpg") no-repeat fixed center;
+}
+
+.mild {
+	background: green url("../img/mild.jpg") no-repeat fixed center;
+}
+
+.very-hot {
+	background: red url("../img/very-hot.jpg") no-repeat fixed center;
+}
+

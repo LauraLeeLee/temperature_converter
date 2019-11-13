@@ -1,7 +1,7 @@
 // Celsius converter JS
 let f;
 let c;
-let body = document.getElementById('body');
+let container = document.getElementById('container');
 let input = document.getElementById('faren');
 if(input.value.length == 0) {
   input.value =  null;
@@ -24,32 +24,32 @@ document.getElementById('faren').addEventListener('input', function() {
   console.log(input.value.length);
   
   if(f<=32) {
-    body.classList.remove('cool', 'mild', 'warm','hot', 'very-hot');
-    body.classList.add('frozen');
+    container.classList.remove('cool', 'mild', 'warm','hot', 'very-hot');
+    container.classList.add('frozen');
    
   } else if(f>32 && f<60) {
-    body.classList.remove('frozen', 'mild', 'warm', 'hot', 'very-hot');
-    body.classList.toggle('cool');
+    container.classList.remove('frozen', 'mild', 'warm', 'hot', 'very-hot');
+    container.classList.toggle('cool');
     
   } else if(f>=60 && f<70) {
-    body.classList.remove('cool', 'frozen', 'warm', 'hot', 'very-hot');
-    body.classList.toggle('mild');
+    container.classList.remove('cool', 'frozen', 'warm', 'hot', 'very-hot');
+    container.classList.toggle('mild');
     
   }else if(f>=70 && f<80) {
-    body.classList.remove('cool', 'mild', 'frozen', 'hot', 'very-hot');
-    body.classList.toggle('warm');
+    container.classList.remove('cool', 'mild', 'frozen', 'hot', 'very-hot');
+    container.classList.toggle('warm');
     
   }else if(f>=80 && f<100) {
-    body.classList.remove('cool', 'mild', 'warm', 'frozen', 'very-hot');
-    body.classList.toggle('hot');
+    container.classList.remove('cool', 'mild', 'warm', 'frozen', 'very-hot');
+    container.classList.toggle('hot');
   
   }else if(f>=100 ) {
-    body.classList.toggle('very-hot');
-    body.classList.remove('cool', 'mild', 'warm', 'hot', 'frozen');
+    container.classList.toggle('very-hot');
+    container.classList.remove('cool', 'mild', 'warm', 'hot', 'frozen');
     
   } else {
-    body.classList.remove('cool', 'mild', 'warm', 'hot', 'frozen', 'very-hot');
-    body.classList.toggle('nothing');
+    container.classList.remove('cool', 'mild', 'warm', 'hot', 'frozen', 'very-hot');
+    container.classList.toggle('nothing');
   }
   console.log("faren is:" + f);
   console.log("cels is:" + c);
